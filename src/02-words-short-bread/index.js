@@ -25,10 +25,7 @@ let changesRequired;
 if(start === end){
 	console.log('Words are the same, 0 changes required.');
 	process.exit(0);
-} else {
-
 }
-
 
 const isDifferentByOne = function(a, b) {
 	let count = 0;
@@ -38,7 +35,6 @@ const isDifferentByOne = function(a, b) {
 	}
 	return count === 1;
 };
-
 
 const contents = fs.readFileSync(__dirname +'/wordlist.txt', { encoding: 'utf8'});
 
