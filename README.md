@@ -1,5 +1,18 @@
 # Fun with code
 
+## Challenges
+
+Detailed description in individual README.md files in
+
+ `src/TASK/README.md`
+
+### 02 Words Short Bread
+
+`src/02-words-short-bread`
+
+Transform same length words from one to the other one letter at a time using only provided words as intermediate steps.  
+
+
 ## Config
 
 `yarn install`
