@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "br": "yarn run build && node",
+    "watch": "babel --watch src --out-dir lib --source-maps inline --copy-files",
+    "build": "babel src --out-dir lib --source-maps inline --copy-files"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
